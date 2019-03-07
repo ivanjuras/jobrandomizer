@@ -2,7 +2,7 @@ var vm = new Vue({
 	el: "#app",
 
 	data: {
-		appTitle: "Auto Transport Content Generator",
+		appTitle: "Job Randomizer",
 		showGenerateButton: true,
 		showContent: false,
 		allStates: [],

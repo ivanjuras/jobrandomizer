@@ -1,5 +1,13 @@
 /******************** Form styles ********************/
 
+input:focus,
+select:focus {
+  border: none !important;
+}
+
+
+/******************** Content styles ********************/
+
 a.button {
   margin: 1.5rem 0;
 }
@@ -67,22 +75,6 @@ ul {
       list-style-position: inside;
       -webkit-column-break-inside: avoid;
                 page-break-inside: avoid;
-                     break-inside: avoid;
+                    break-inside: avoid;
     }
-}
-
-
-/************* Navigation ************/
-
-.navigation {
-  text-align: center;
-}
-
-
-/**************** Subheadings *********/
-
-.app-subheading {
-  padding-bottom: 1rem;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid #ccc;
 }
